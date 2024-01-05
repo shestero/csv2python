@@ -1,0 +1,18 @@
+[package]
+name = "csv2python"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lazy_static = "1.4"
+reqwest = {version = "0.11.23", features = ["blocking", "json"]}
+csv = "1.3.0"
+flate2 = "1.0" # .28
+serde = "1.0.166"
+serde_json = "1.0"
+serde_json_path = "0.6.3"
+nng = "1.0.1"
+rmp-serde = "1.1.2"
+rayon = "1.8.0"
